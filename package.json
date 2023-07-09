@@ -1,0 +1,27 @@
+{
+  "name": "black-database-guidebook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "dumi dev --port=8110",
+    "build": "dumi build",
+    "deploy": "bash ./scripts/deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yyt520/black-database-guidebook.git"
+  },
+  "author": "yyt520",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yyt520/black-database-guidebook/issues"
+  },
+  "homepage": "https://github.com/yyt520/black-database-guidebook#readme",
+  "devDependencies": {
+    "babel-plugin-import": "^1.13.5",
+    "dumi": "^1.1.47",
+    "lint-md": "^0.2.0"
+  }
+}
